@@ -1,0 +1,17 @@
+/*webkit-sassui-mask Start*/
+$webkit-sassui-mask-options:(
+  color: #000,
+  opactiy: 0.8
+)!default;
+
+.webkit-sassui-mask{
+  $color: map-get($map: $webkit-sassui-mask-options, $key:color );
+  $opactiy: map-get($map: $webkit-sassui-mask-options, $key:opactiy );
+  background: rgba($color, $opactiy);
+  position: absolute;
+  top:0; 
+  right:0;
+  bottom:0;
+  left:0;
+}
+/*webkit-sassui-mask End*/
