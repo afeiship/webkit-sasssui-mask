@@ -1,5 +1,5 @@
-/*webkit-sassui-mask Start*/
-.webkit-sassui-mask {
+/*wsui-mask Start*/
+.wsui-mask {
   background: rgba(0, 0, 0, 0.8);
   position: absolute;
   top: 0;
@@ -8,15 +8,10 @@
   left: 0;
 }
 
-/*webkit-sassui-mask End*/
-* {
-  margin: 0;
-  padding: 0;
-}
-
+/*wsui-mask End*/
 .abs-center {
   position: absolute;
-  top: 50%;
+  top: 32.5%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -33,6 +28,8 @@
   width: 320px;
   height: 320px;
   font-size: 14px;
+  border-radius: 4px;
+  overflow: hidden;
 }
 
 .box > img {

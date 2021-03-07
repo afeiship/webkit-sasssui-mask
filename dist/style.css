@@ -1,0 +1,18 @@
+/*!
+ * name: @jswork/wsui-mask
+ * description: Mask sass component.
+ * homepage: https://github.com/afeiship/wsui-mask
+ * version: 1.0.0
+ * date: 2021-03-07 20:42:57
+ * license: MIT
+ */
+/*wsui-mask Start*/
+.wsui-mask {
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; }
+
+/*wsui-mask End*/

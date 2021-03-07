@@ -1,0 +1,17 @@
+/*wsui-mask Start*/
+$wsui-mask-options:(
+  color: #000,
+  opactiy: 0.8
+)!default;
+
+.wsui-mask{
+  $color: map-get($map: $wsui-mask-options, $key:color );
+  $opactiy: map-get($map: $wsui-mask-options, $key:opactiy );
+  background: rgba($color, $opactiy);
+  position: absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+}
+/*wsui-mask End*/
